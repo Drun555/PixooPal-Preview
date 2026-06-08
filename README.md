@@ -10,9 +10,9 @@ npx @pixoopal/preview run
 
 ## Commands
 
-- `@pixoopal/preview create` scaffolds a Clockface folder.
-- `@pixoopal/preview run` builds the current Clockface and starts a local preview server.
-- `@pixoopal/preview build` builds the current Clockface without starting the server.
+- `npx @pixoopal/preview create` creates a new Clockface.
+- `npx @pixoopal/preview run` builds the Clockface in the current folder and starts a local preview server.
+- `npx @pixoopal/preview build` builds the current Clockface without starting the server.
 
 The generated Clockface entrypoint is TypeScript (`<ClockfaceName>.ts`). Preview builds that TypeScript entry into `build-<ClockfaceName>/<ClockfaceName>.mjs`.
 
