@@ -1,0 +1,26 @@
+{
+  "name": "@pixoopal/preview",
+  "version": "0.1.0",
+  "description": "Create and preview PixooPal Clockfaces.",
+  "type": "module",
+  "bin": {
+    "pixoopal-preview": "./bin/pixoopal-preview.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check ./bin/pixoopal-preview.mjs && node --check ./lib/cli.mjs && node --check ./lib/create.mjs && node --check ./lib/run.mjs && node --check ./lib/shared.mjs"
+  },
+  "dependencies": {
+    "@pixoopal/clockface": "^0.2.2",
+    "esbuild": "^0.25.5"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
